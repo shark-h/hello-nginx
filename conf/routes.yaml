@@ -167,3 +167,14 @@ app:
       namespace: '{{ cluster.metadata.namespaces.user }}'
     upstreamServicePath: /
     upstreamServicePort: 80
+
+react:
+  /:
+    corsPolicy: allow_all
+    upstreamService:
+      name: react
+      namespace: '{{ cluster.metadata.namespaces.user }}'
+    upstreamServicePath: /
+    upstreamServicePort: 80
+
+

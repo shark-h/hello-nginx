@@ -22,3 +22,9 @@ remotes:
       www:
         dockerfile: microservices/www/Dockerfile
         path: microservices/www
+
+    '{{ cluster.metadata.namespaces.user }}.react':
+      react:
+        dockerfile: microservices/react/Dockerfile
+        path: microservices/react
+
