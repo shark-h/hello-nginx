@@ -5,3 +5,10 @@
   data: null
   kubeContext: anticyclonic72
   name: anticyclonic72
+- alias: prod
+  config:
+    configmap: controller-conf
+    namespace: anxiously93-hasura
+  data: null
+  kubeContext: anxiously93
+  name: anxiously93
