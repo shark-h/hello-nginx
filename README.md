@@ -1,4 +1,4 @@
-Some changes
+Some changes, view the [file here](https://github.com/shark-h/hello-nginx/blob/master/.github/test.md)
 
 # hello-nginx
 
