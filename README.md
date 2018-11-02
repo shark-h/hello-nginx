@@ -1,5 +1,3 @@
-Some changes, view the [file here](https://github.com/shark-h/hello-nginx/blob/master/.github/test.md)
-
 # hello-nginx
 
 This quickstart consists of a basic hasura project with a microservice which hosts a static html page using nginx. The static page will be hosted at https://www.cluster-name.hasura-app.io.
